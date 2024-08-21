@@ -4,7 +4,7 @@ body {
 }
 
 .news__main {
-    margin-top: 30px;
+    margin: 30px 80px;
     display: flex;
     justify-content: center;
 }
@@ -99,12 +99,12 @@ max-width: 100px;
 .news__general-container {
 display: flex;
 gap: 15px;
-justify-content: center;
-margin-top: 15px;
+justify-content: space-between;
+margin: 15px 145px;
 }
 
 .news__general {
-max-width: 270px;
+width: 270px;
 background-color: #151411;
 padding: 20px;
 border-radius: 16px;

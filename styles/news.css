@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #27241F;
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    margin: 40px 148px;
+}
+
+.nav__title {
+    font-weight:700;
+    color: #FFF;
+    font-size: 36px;
+}
+
+.search__bar{
+    display:flex;
+    background: #D9D9D9;
+    width:250px;
+    border-radius: 8px;
+    padding:10px 5px
+}
+
+.search__icon {
+    color: #13110E;
+}
+
+.search__input{
+    
+    border: none;
+    outline: 0;
+    background: none;
+    width: 236px;
+}
+
+.search__input::placeholder{
+    color: #13110E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.news__container {
+    margin: 0 148px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.news__general {
+    margin-top:20px;
+    width: 270px;
+    background-color: #151411;
+    padding: 20px;
+    border-radius: 16px;
+    }
+    
+    .news__general-title {
+        font-family: "Pirata One", sans-serif;
+        color: #FFF;
+        font-size:23px;
+        padding:10px 0;
+    }
+    
+    .news__general-desc {
+    color: #FFF;
+    font-size: 10px;
+    }
+    
+    .news__general-date {
+    color: #DBDBDB;
+    padding:10px 0;
+    font-size: 11px;
+    }
+    
+    .news__general-button {
+    text-decoration: none;
+    color: #151411;
+    background-color:#D9D9D9;
+    font-weight:700;
+    padding:5px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    }
