@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Prophet - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pirata+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+
+    <header class="nav__header">
+        <img src="./imagens/logo.svg" alt="Logomarca do Daily Prophet">
+        <ul class="list">
+            <li class="list__item"><a href="./index.html" class="lista__item-link">Home</a></li>
+            <li class="list__item"><a href="./news.html" class="lista__item-link">News</a></li>
+            <li class="list__item"><a href="./contact.html" class="lista__item-link">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <form class="contact-us_container">
+        <div class="contact__form-title">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact__form-name">
+            <label for="name">Full Name <span class="required">*</span>
+            </label><input type="text">
+        </div>
+
+        <div class="contact__form-email">
+            <label for="name">E-mail <span class="required">*</span>
+            </label><input type="email">
+        </div>
+
+        <div class="contact__form-subject">
+            <label for="name">Leave us a few words <span class="required">*</span>
+            </label><textarea id="subject" name="subject"></textarea>
+
+        </div>
+
+        <div class="contact__form-submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <footer class="footer">
+        <p>Gustavo Portela, 2024. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
