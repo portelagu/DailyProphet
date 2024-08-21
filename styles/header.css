@@ -1,0 +1,23 @@
+.nav__header {
+    background-color: #13110E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    }
+    
+    
+    .list {
+        display: flex;
+    }
+    
+    .list__item {
+        list-style: none;
+        font-weight: 600;
+        margin: 0px 2.5rem;
+    }
+    
+    .lista__item-link {
+        text-decoration: none;
+        color: #FFF;
+    }

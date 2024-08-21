@@ -3,30 +3,6 @@ body {
     background-color: #27241F;
 }
 
-.nav__header {
-background-color: #13110E;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0.5rem 2rem;
-}
-
-
-.list {
-    display: flex;
-}
-
-.list__item {
-    list-style: none;
-    font-weight: 600;
-    margin: 0px 2.5rem;
-}
-
-.lista__item-link {
-    text-decoration: none;
-    color: #FFF;
-}
-
 .news__main {
     margin-top: 30px;
     display: flex;
@@ -160,14 +136,4 @@ font-weight:700;
 padding:5px 10px;
 border-radius: 6px;
 font-size: 11px;
-}
-
-.footer {
-    margin-top: 30px;
-    padding:30px;
-    background-color: #151411;
-    color: #FFF;
-    font-size: 16px;
-    display:flex;
-    justify-content:center;
 }
