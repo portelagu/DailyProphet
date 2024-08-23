@@ -2,3 +2,46 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #27241F;
 }
+
+.news__container {
+margin: 20px;
+display: flex;
+justify-content: center;
+}
+
+.news {
+    background: #13110E;
+    max-width: 1012px;
+    border-radius:27px;
+    padding: 20px 40px;
+
+}
+
+.news__title {
+font-family: 'Pirata One', sans-serif;
+color: #D9D9D9;
+font-size: 64px;
+margin-top: 20px;
+}
+
+.news__content {
+font-size: 18px;
+color: #D9D9D9;
+font-weight: 400;
+max-width: 912px;
+margin-top: 20px;
+}
+
+.news__date {
+font-size: 12px;
+color: #979695;
+font-weight: 600;
+margin: 15px 0 25px 0;
+}
+
+.close__link {
+    text-decoration: none;
+    color: #E8EAED;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
